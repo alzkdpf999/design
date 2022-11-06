@@ -119,6 +119,7 @@ td.quarter span:not(span:first-child)::before{
 td.quarter span.part{
     text-decoration: line-through;  
     text-decoration-color: #ee1e46;
+    text-decoration-thickness: 3px;
 }
 td.quarter span{
     
