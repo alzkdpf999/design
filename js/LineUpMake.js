@@ -15,7 +15,6 @@ let addPlayerPosition = null;
 let chanX = null;
 let chanY = null;
 let manager = new LineUpManager();
-
 //상황판 드래그 영역
 document.querySelector("#lineUp").addEventListener("mouseover", function (event) {
 
@@ -231,3 +230,4 @@ document.querySelector(".close_pop").addEventListener("click", function (event) 
   let search = document.querySelector(".search");
   search.style.display = "none";
 })
+
